@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/cardCorrerRadius"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        android:layout_margin="@dimen/cardLayoutMargin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_margin="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/defaultLayoutMargin"
+            android:layout_marginTop="@dimen/defaultLayoutMargin"
+            android:layout_marginEnd="@dimen/defaultLayoutMargin"
+            android:layout_marginBottom="@dimen/defaultLayoutMargin"
+            app:cardCornerRadius="@dimen/cardCornerRadius"
+            app:cardElevation="@dimen/cardElevation">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

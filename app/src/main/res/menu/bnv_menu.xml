@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navHome"
+        android:title="Inicio"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/navShop"
+        android:title="Mi Pedido"
+        android:icon="@drawable/ic_cart"/>
+
+    <item
+        android:id="@+id/navAdmin"
+        android:title="Mi Cuenta"
+        android:icon="@drawable/ic_account_square"/>
+</menu>

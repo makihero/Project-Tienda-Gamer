@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="itemCommentUser">20sp</dimen>
+    <dimen name="itemCommentsScore">20dp</dimen>
+    <dimen name="defaultLayoutMargin">5dp</dimen>
+    <dimen name="itemsCommentsComment">20sp</dimen>
+    <dimen name="sizeTitleComments">25sp</dimen>
+    <dimen name="cardCornerRadius">5dp</dimen>
+    <dimen name="cardElevation">5dp</dimen>
+    <dimen name="heightImageProduct">200dp</dimen>
+    <dimen name="sizeNameProduct">20sp</dimen>
+    <dimen name="heigthImageProduct">150dp</dimen>
+    <dimen name="sizePriceProduct">20sp</dimen>
+    <dimen name="textTitle">25sp</dimen>
+    <dimen name="textSizeAdmin">20sp</dimen>
+    <dimen name="cardCorrerRadius">5dp</dimen>
+    <dimen name="cardLayoutMargin">5dp</dimen>
+    <dimen name="logoHeight">300dp</dimen>
+</resources>
